@@ -1,0 +1,21 @@
+{
+  "publicImpact": {
+    "studentsTrainedTotal": null,
+    "studentsCurrentlyTraining": null,
+    "ministersReceivingMonthlyAllowance": null,
+    "churchProjectsOngoing": null,
+    "churchProjectsCompleted": null,
+    "lastVerifiedAt": null
+  },
+  "leadershipRoles": [
+    {"title": "Founder & Chairman of the Board", "name": "", "photo": "", "biography": "", "sortOrder": 1, "published": false},
+    {"title": "Secretary", "name": "", "photo": "", "biography": "", "sortOrder": 2, "published": false},
+    {"title": "Treasurer", "name": "", "photo": "", "biography": "", "sortOrder": 3, "published": false},
+    {"title": "Board of Trustees", "name": "", "photo": "", "biography": "", "sortOrder": 4, "published": false},
+    {"title": "CEO / Executive Director", "name": "", "photo": "", "biography": "", "sortOrder": 5, "published": false}
+  ],
+  "churchProjects": [],
+  "trainingProgrammes": [],
+  "outreachGallery": [],
+  "partners": []
+}
