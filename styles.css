@@ -13,14 +13,30 @@
 .document-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:22px;margin-top:28px}.document-card{background:#fff;border:1px solid #e4e9e4;border-radius:16px;overflow:hidden;box-shadow:0 10px 30px #173d2410;display:flex;flex-direction:column}.document-card>div:not(.document-icon){padding:22px}.document-card h3{margin:8px 0}.document-card p{line-height:1.65}.document-card small{display:block;color:#64748b;line-height:1.5;margin-top:12px}.document-kicker{font-size:.72rem;letter-spacing:.12em;font-weight:700;color:#39714e}.scuml-preview{width:100%;height:190px;object-fit:cover;object-position:center 40%;background:#f7f5e8}.document-icon{height:190px;display:grid;place-items:center;background:#edf4eb;color:#2d6946;font-size:4rem;font-weight:700}.document-card .text-link{font-weight:700}
 /* Supabase-managed public CMS media cards */
 .cms-card-image{display:block;width:100%;max-height:240px;object-fit:cover;border-radius:12px;margin:0 0 12px}.cms-gallery-image{width:100%;height:210px;object-fit:cover;border-radius:10px;margin-bottom:10px}.team-card small{display:block;color:#65736e;line-height:1.5;margin-top:8px}.gallery-placeholder a{display:inline-block;padding:12px;color:#075b52;font-weight:700}
-/* Keep the French Donate button on one line on mobile */
+/* Improved mobile header layout */
 @media (max-width: 760px) {
+  .site-header {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+
+  .header-actions {
+    gap: 8px;
+    flex-shrink: 0;
+  }
+
   .header-actions .button-small {
     white-space: nowrap;
-    flex-shrink: 0;
     width: auto;
-    min-width: max-content;
-    padding: 12px 14px;
-    font-size: 14px;
+    min-width: 118px;
+    padding: 12px 12px;
+    font-size: 13px;
+    flex-shrink: 0;
+    text-align: center;
+  }
+
+  .brand {
+    min-width: 0;
+    flex: 1;
   }
 }
